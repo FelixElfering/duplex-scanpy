@@ -1,0 +1,6 @@
+# python virtual environment folder
+venv
+# pycharm config folder
+.idea
+# macOS fs
+.DS_Store
