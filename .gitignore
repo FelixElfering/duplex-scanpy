@@ -4,3 +4,9 @@ venv
 .idea
 # macOS fs
 .DS_Store
+# distribution and build files
+dist
+build
+*.spec
+# pycache
+__pycache__
