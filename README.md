@@ -7,6 +7,7 @@ A basic quick and dirty python tool to merge together a batch scan of duplex pri
 3. Run main.py
 
 **In GUI:**
+
 4. Select all the files created via scanning
 5. Enter the amount of sides each individual document had (Should always be even as even the blank backsides were scanned)
 6. Choose the output location for the files that will be generated
