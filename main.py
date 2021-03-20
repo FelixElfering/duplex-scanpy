@@ -86,8 +86,13 @@ def select_files():
     window.close()
 
 
-select_files()
-s_batch = split_batch(listOfFiles)
+def main():
+    select_files()
+    s_batch = split_batch(listOfFiles)
 
-for i, batch in enumerate(s_batch):
-    merge_files(batch, i)
+    for i, batch in enumerate(s_batch):
+        merge_files(batch, i)
+
+
+if __name__ == '__main__':
+    main()
