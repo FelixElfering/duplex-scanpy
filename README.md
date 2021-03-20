@@ -4,7 +4,7 @@ A basic quick and dirty python tool to merge together a batch scan of duplex pri
 ## How To Use
 1. Scan the front sides of all documents (via document feeder) as individual PDFs
 2. Flip documents over and scan again (via document feeder) as individual PDFs
-3. Run main.py
+3. Run the duplex-scanpy app (if using release) or run main.py (if using source code)
 
 **In GUI:**
 
