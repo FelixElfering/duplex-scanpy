@@ -30,7 +30,7 @@ def split_batch(files):
     split_batch_files = []
     document_count = len(files) // 2
     front_sides = files[:document_count]
-    back_sides = files[document_count:]
+    back_sides = files[document_count:][::-1]
 
     for i in range(1, document_count + 1):
         current_batch = []
